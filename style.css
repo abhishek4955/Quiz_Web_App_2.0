@@ -1,0 +1,195 @@
+/* Global CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styles */
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  background-color: WhiteSmoke;
+}
+
+/* Header styles */
+h1 {
+  margin-bottom: 20px;
+  color: WhiteSmoke;
+  text-transform: uppercase;
+}
+
+/* Todo container styles */
+.todo {
+  width: 800px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 4px 4px 5px rgba(82, 82, 82, 0.4);
+  border-radius: 5px;
+}
+
+/* Header section styles */
+.header {
+  padding: 40px;
+  border-radius: 5px 5px 0 0;
+  background-image: linear-gradient(340deg, #045de9 0%, #09c6f9 100%);
+}
+
+/* Todo input styles */
+.todo-input {
+  width: 80%;
+  padding: 10px 20px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 5px;
+  color: DarkSlateGray;
+  background-color: WhiteSmoke;
+}
+
+/* Alert message styles */
+.alert-info {
+  display: none;
+  margin-top: 20px;
+  color: DarkBlue;
+}
+
+/* Add button styles */
+.add-btn {
+  padding: 10px 23px;
+  border: none;
+  border-radius: 5px;
+  color: DeepSkyBlue;
+  background-color: WhiteSmoke;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.add-btn:hover {
+  color: #fff;
+  background-color: DarkSlateGray;
+}
+
+/* Todo list styles */
+.todo-list {
+  padding: 20px 0;
+}
+
+/* Todo list title styles */
+.todo-list h3 {
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+/* Todo item styles */
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+  padding-left: 20px;
+  list-style: none;
+  background-color: WhiteSmoke;
+}
+
+/* Todo item tools styles */
+.tools button {
+  padding: 15px 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tools button:hover {
+  background-color: #ddd;
+}
+
+/* Complete button styles */
+.complete {
+  color: DodgerBlue;
+}
+
+/* Edit button styles */
+.edit {
+  font-weight: bold;
+  color: LimeGreen;
+}
+
+/* Delete button styles */
+.delete {
+  color: Tomato;
+}
+
+/* Completed todo item styles */
+.completed {
+  color: DarkSlateGray;
+  text-decoration: line-through;
+}
+
+/* Popup styles */
+.popup {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px;
+  color: WhiteSmoke;
+  background-color: DarkSlateGray;
+  border-radius: 5px;
+}
+
+/* Popup title styles */
+.popup h3 {
+  padding: 20px;
+}
+
+/* Popup info styles */
+.popup-info {
+  margin-bottom: 20px;
+  color: WhiteSmoke;
+}
+
+/* Popup body styles */
+.popup-body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  padding: 10px;
+}
+
+/* Popup input styles */
+.popup-input {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: DarkSlateGray;
+  background-color: WhiteSmoke;
+}
+
+/* Popup button styles */
+.popup-btn {
+  display: inline-block;
+  width: 30%;
+  padding: 10px 22px;
+  margin: 20px;
+  border: none;
+  border-radius: 5px;
+  color: DimGray;
+  background-color: WhiteSmoke;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.popup-btn:hover {
+  color: #fff;
+  background-color: DodgerBlue;
+}
